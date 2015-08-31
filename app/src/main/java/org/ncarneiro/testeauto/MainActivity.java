@@ -39,9 +39,19 @@ public class MainActivity extends AppCompatActivity {
 
     public void click(View v) {
         Character c1 = new NonPlayerCharacter();
-
-
-                //((TextView) findViewById(R.id.tv_text)).setText(String.valueOf(Dice.roll()));
+        c1.setName("NPC1");
+        c1.setHp(30);
+        c1.setAttack(3);
+        c1.setDamage(3);
+        c1.setEvade(3);
+        Character c2 = new NonPlayerCharacter();
+        c2.setName("NPC2");
+        c2.setHp(30);
+        c2.setAttack(3);
+        c2.setDamage(3);
+        c2.setEvade(3);
+        String t = Combat.fight(c1, c2);
+        ((TextView) findViewById(R.id.tv_text)).setText(t);
     }
 
 }
