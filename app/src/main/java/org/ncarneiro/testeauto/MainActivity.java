@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click(View v) {
+        //dvhlbkslbcjlsdn;
         Character c1 = new NonPlayerCharacter();
         c1.setName("NPC1");
         c1.setHp(30);
