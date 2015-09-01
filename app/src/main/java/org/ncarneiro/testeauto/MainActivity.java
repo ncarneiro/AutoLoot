@@ -7,6 +7,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+import org.ncarneiro.testeauto.combat.*;
+import org.ncarneiro.testeauto.combat.Character;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -38,8 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click(View v) {
-        //dvhlbkslbcjlsdn;
-        Character c1 = new NonPlayerCharacter();
+        org.ncarneiro.testeauto.combat.Character c1 = new NonPlayerCharacter();
         c1.setName("NPC1");
         c1.setHp(30);
         c1.setAttack(3);

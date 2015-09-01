@@ -1,4 +1,4 @@
-package org.ncarneiro.testeauto;
+package org.ncarneiro.testeauto.combat;
 
 /**
  * Created by Nikolas on 31/08/2015.

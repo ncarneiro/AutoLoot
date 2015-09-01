@@ -1,4 +1,4 @@
-package org.ncarneiro.testeauto;
+package org.ncarneiro.testeauto.combat;
 
 import android.util.Log;
 

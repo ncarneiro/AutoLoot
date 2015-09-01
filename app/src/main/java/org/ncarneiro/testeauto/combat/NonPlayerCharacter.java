@@ -1,4 +1,6 @@
-package org.ncarneiro.testeauto;
+package org.ncarneiro.testeauto.combat;
+
+import java.lang.*;
 
 /**
  * Created by Nikolas on 31/08/2015.
