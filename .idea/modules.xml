@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TesteAuto.iml" filepath="$PROJECT_DIR$/TesteAuto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AutoLoot.iml" filepath="$PROJECT_DIR$/AutoLoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
